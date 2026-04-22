@@ -1,20 +1,82 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Electronics Engage</title>
+    <title>Electronics-Engage</title>
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            background-color: #0f172a;
+            color: white;
+        }
+        header {
+            background: #020617;
+            padding: 20px;
+            text-align: center;
+        }
+        nav a {
+            margin: 10px;
+            color: #38bdf8;
+            text-decoration: none;
+        }
+        section {
+            padding: 40px;
+        }
+        .card {
+            background: #1e293b;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>Welcome to Electronics-Engage</h1>
+
+<header>
+    <h1>Electronics-Engage</h1>
     <p>Embedded Systems | Linux | Driver Development</p>
 
-    <h2>Projects</h2>
-    <ul>
-        <li>SPI Driver (Linux)</li>
-        <li>CAN Communication</li>
-        <li>I2C Sensor Interface</li>
-    </ul>
+    <nav>
+        <a href="#projects">Projects</a>
+        <a href="#videos">Workshops</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
 
-    <h2>Workshops</h2>
-    <p>Coming soon...</p>
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="card">
+        <h3>SPI Driver (Linux)</h3>
+        <p>User-space to kernel communication using ioctl and spidev.</p>
+    </div>
+
+    <div class="card">
+        <h3>CAN Communication Tool</h3>
+        <p>SocketCAN based message transmission and filtering.</p>
+    </div>
+
+    <div class="card">
+        <h3>I2C Sensor Interface</h3>
+        <p>Register-level communication with sensors.</p>
+    </div>
+</section>
+
+<section id="videos">
+    <h2>Workshop Videos</h2>
+
+    <iframe width="560" height="315"
+    src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+    allowfullscreen></iframe>
+
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Email: your@email.com</p>
+    <p>GitHub: github.com/komalrjpt</p>
+</section>
+
 </body>
 </html>
